@@ -32,7 +32,7 @@ function BookDetails({ bookId }) {
   };
 
   return (
-    <div id="book-detials">
+    <div id="book-details">
       <p>Book details go here</p>
       {bookId && DisplayBookDetails()}
     </div>
